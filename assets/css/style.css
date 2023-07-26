@@ -108,6 +108,20 @@ font-family: font;
   position: absolute; /* <-- Added */
   z-index: 1; /* <-- Added */
 }
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px; 
+  text-align: center; 
+}
+.cr_text{
+  font-family: font;
+  color: #ffffff;
+  font-size: small;
+}
 /* 
 ██████  ███████ ███████ ██████   ██████  ███    ██ ███████ ██ ██    ██ ███████ 
 ██   ██ ██      ██      ██   ██ ██    ██ ████   ██ ██      ██ ██    ██ ██      
