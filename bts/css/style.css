@@ -9,7 +9,8 @@
     display: none;
 }
   body {
-    margin: 0px;
+    margin:0;
+    padding:0;
     font-family: 'segoe ui';
     background-color: #079eaf;
   }
@@ -106,6 +107,24 @@ font-family: font;
   position: absolute; /* <-- Added */
   z-index: 1; /* <-- Added */
 }
+/*--------------------------------------------------------------------------------*/
+#links{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number '3' as per your requirement */
+  grid-gap:0;
+  padding:0;
+  line-height:0;
+  margin-bottom:20px
+}
+#links a{
+  display:block;
+  height:100%;
+  padding:1px;
+}
+#links img{
+  width:100%;
+  height:auto;
+}
 
 /* 
 ██████  ███████ ███████ ██████   ██████  ███    ██ ███████ ██ ██    ██ ███████ 
@@ -178,19 +197,10 @@ font-family: font;
       overflow-y: auto;
     }
   }
-  img {
-    display: block; /* Ensures the image is displayed as a block element */
-    margin:  auto; /* Centers the image horizontally with a top margin of 20px */
-    max-width: 10%; /* Ensures the image does not exceed its original size */
-    margin-top: 80px;
-  }
+
   
   @media screen and (max-width: 768px) {
-     img {
-        display: block; /* Ensures the image is displayed as a block element */
-        margin:  50px auto; /* Centers the image horizontally with a top margin of 20px */
-        max-width: 40%; /* Ensures the image does not exceed its original size */
-      }
+
       h1{
         text-align:center;
         margin-top:30px;
