@@ -1,6 +1,1 @@
-# personal website
-
-
-
-
-https://samiiiiiiur.github.io/test/
+# https://samiiiiiiur.github.io/website-daddys-swim-suit/
